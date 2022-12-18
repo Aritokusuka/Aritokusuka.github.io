@@ -1,0 +1,67 @@
+
+.flex_container{
+    display: flex;
+    height: 85px;
+    width: 1903px;
+    background-color: #d00080;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0px;
+}
+.flex_container div {
+    align-items: stretch;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+.flex_container div:hover {
+    background-color: aliceblue;
+    color: rgb(217, 14, 153);
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.quastions{
+    margin-left: 20%;
+    font-size: 35px;
+}
+ li{
+    color: rgb(225, 32, 32);
+ }
+
+ .umpa{
+    color: rgb(9, 9, 14);
+    font-size: 34px;
+ }
+
+.vidos{
+    padding-left: 25%;
+}
+
+.cont{
+    font-size: 20px;
+}
+
+.zaika{
+    position: fixed;
+    height: 250px;
+    width: 250px;
+    top: 250px;
+    left: 12px;
+    animation: pulsing 2s infinite;
+}
+
+@keyframes pulsing {
+    0%{transform: scale(0.7,0.7);}
+    50%{transform: scale(1,1);}
+    100%{transform: scale(0.7,0.7);}
+}
+
